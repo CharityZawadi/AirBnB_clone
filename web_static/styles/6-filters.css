@@ -1,0 +1,55 @@
+/* styles/6-filters.css */
+
+.filters {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.locations, .amenities {
+    text-align: center;
+}
+
+.locations h3, .amenities h3 {
+    margin-bottom: 10px;
+}
+
+.popover {
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.popover ul {
+    list-style: none;
+    padding: 0;
+}
+
+.popover li {
+    margin: 5px 0;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+}
+
+button {
+    background-color: #FF5A5F;
+    color:  #FFFFFF;
+    border: none;
+    height: 48px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
